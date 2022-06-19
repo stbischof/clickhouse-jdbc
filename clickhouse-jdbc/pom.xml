@@ -157,8 +157,8 @@
                         </goals>
                         <configuration>
                             <jdkVersion>1.8</jdkVersion>
-                            <javadocFriendlyComments>true</javadocFriendlyComments>
-                            <packageName>com.clickhouse.jdbc.parser</packageName>
+                            <!--javadocFriendlyComments>true</javadocFriendlyComments>
+                            <packageName>com.clickhouse.jdbc.parser</packageName-->
                             <sourceDirectory>src/main/javacc</sourceDirectory>
                             <outputDirectory>src/main/java</outputDirectory>
                         </configuration>

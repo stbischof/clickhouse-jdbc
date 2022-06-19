@@ -1,15 +1,8 @@
 /**
- * Declares ru.yandex.clickhouse module.
+ * Declares com.clickhouse.jdbc module.
  */
 module com.clickhouse.jdbc {
     exports com.clickhouse.jdbc;
-    
-    exports ru.yandex.clickhouse;
-    exports ru.yandex.clickhouse.domain;
-    exports ru.yandex.clickhouse.except;
-    exports ru.yandex.clickhouse.response;
-    exports ru.yandex.clickhouse.settings;
-    exports ru.yandex.clickhouse.util;
 
     requires transitive com.clickhouse.client;
     requires transitive com.google.gson;
